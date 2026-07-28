@@ -235,3 +235,9 @@ This project uses **Spring Security** with **JWT authentication**.
 - Admin-only endpoints are protected using role-based authorization.
 
 Passwords are securely stored using BCrypt hashing.
+
+## Screenshots
+
+<img src="./assets/dashboard.png" width="800">
+
+<img src="./assets/login.png" width="800">
