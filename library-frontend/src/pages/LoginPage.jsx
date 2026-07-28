@@ -30,10 +30,6 @@ export default function LoginPage() {
     <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-brand-50 via-white to-slate-100 px-4 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
       <div className="w-full max-w-md rounded-3xl border border-slate-200 bg-white/90 p-8 shadow-xl dark:border-slate-800 dark:bg-slate-900/90">
         <h1 className="font-display text-2xl font-bold text-slate-900 dark:text-white">Sign in</h1>
-        <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-          Use seeded accounts <span className="font-mono">admin</span> / <span className="font-mono">Admin123!</span>{' '}
-          or <span className="font-mono">demo</span> / <span className="font-mono">DemoUser123!</span>
-        </p>
         <form className="mt-6 space-y-4" onSubmit={submit}>
           <div>
             <label className="text-xs font-semibold uppercase text-slate-500">Username</label>
